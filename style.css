@@ -1,1 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins&display=swap');
+
+    :root {
+      --Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--Dark-Grey: hsl(0, 0%, 12%);
+--Off-Black: hsl(0, 0%, 8%);
+    }
+    * {
+      font-family: "inter", sans-serif;
+    } 
+    body {
+      display: grid; 
+      place-content: center; 
+      background-color: var(--Off-Black);
+      font-size: 14px; 
+      color: var(--White);
+    }
+    .content-card {
+      background-color: var(--Dark-Grey); 
+      text-align: center; 
+      border-radius: 10px; 
+      padding: 27px; 
+      margin: 10px;
+      display: grid;
+    } 
+    .title {
+      font-weight: 600; 
+      font-style: SemiBole;
+    } 
+    .title h5 {
+      color: var(--Green);
+    } 
+    .paragraph {
+      font-weight: 300; 
+      font-style: Light;
+    }
+    .social-links {
+      text-align: center; 
+      padding: 10px;
+      margin: 20px;
+    } 
+    #github {
+      background-color: var(--Grey); 
+      border-radius: 10px; 
+      padding: 10px;
+      font-style: SemiBold; 
+      font-weight: 600;
+    } 
+    #github:hover {
+      background-color: var(--Green); 
+      color: var(--Off-Black);
+    }
+    #fm {
+      background-color: var(--Grey); 
+      border-radius: 10px; 
+      padding: 10px;
+      font-style: SemiBold; 
+      font-weight: 600;
+    } 
+    #fm:hover {
+      background-color: var(--Green); 
+      color: var(--Off-Black);
+    }
+    #linked-in {
+      background-color: var(--Grey); 
+      border-radius: 10px; 
+      padding: 10px; 
+      font-style: SemiBold; 
+      font-weight: 600;
+    }
+    #linked-in:hover {
+      background-color: var(--Green); 
+      color: var(--Off-Black);
+    }
+    #twuitar {
+      background-color: var(--Grey); 
+      border-radius: 10px; 
+      padding: 10px; 
+      font-style: SemiBold; 
+      font-weight: 600;
+    } 
+    #twuitar:hover {
+      background-color: var(--Green); 
+      color: var(--Off-Black);
+    }
+    #insta {
+      background-color: var(--Grey); 
+      border-radius: 10px; 
+      padding: 10px; 
+      font-style: SemiBold; 
+      font-weight: 600;
+    } 
+    #insta:hover {
+      background-color: var(--Green); 
+      color: var(--Off-Black);
+    } 
+    @media screen and (max-width: 320px) {
+  .content-card {
+    width: 30%; 
+    height: 30%;
+  }
+} 
+@media screen and (max-width: 480px) {
+  .content-card {
+    width: 40%; 
+    height: 40%;
+  }
+}
+@media screen and (max-width: 481px) {
+  .component-card {
+    width: 45%; 
+    height: 45%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content-card {
+    width: 50%; 
+    height: 50%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .content-card {
+    width: 55%; 
+    height: 55%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .content-card {
+    width: 100%; 
+    height: 100%;
+  }
+} 
+@media screen and (max-width: 1025px) {
+  .component-card {
+    width: 100%; 
+    height: 100%;
+  } 
+}
+    .attribution { 
+      font-size: 11px;
+      text-align: center; 
+      text-decoration: none;
+                 }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+      text-decoration: none; 
+    }
 
