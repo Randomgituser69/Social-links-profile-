@@ -95,7 +95,7 @@ body {
   padding: 20px 10px;
   margin-top: 2.5em;
   margin-bottom: 2em;
-  max-width: 22rem;
+  max-width: 23rem;
 }
 .content-card img {
   display: inline-block;
@@ -104,27 +104,31 @@ body {
   border-radius: 50px;
 }
 .title {
+  padding: 15px 0;
+}
+.title h1 {
   font-weight: 600;
 }
 .title span {
   color: var(--Green);
 }
-p {
+.content-card p {
   font-weight: 300;
   font-style: Light;
+  padding: 15px 0;
 }
 
-ul {
+.content-card ul {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 15px;
   padding: 5px;
   list-style: none;
 }
 li {
   background-color: var(--Grey);
   border-radius: 10px;
-  padding: 10px 50px;
+  padding: 10px 56px;
   font-weight: 600;
 }
 .content-card a {
